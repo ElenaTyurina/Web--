@@ -1,0 +1,380 @@
+@media (max-width: 375px){
+
+    .top{
+    background-image: none;
+    }
+
+    .header__inner{
+    width: 375px;
+    }
+
+    .menu__list{
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: rgba(202, 180, 137, 1);
+    text-align: center;
+    transition: all .5s;
+    transform: translateY(-300%);
+    margin-top: 40px;
+    }
+
+    .menu__list.menu__list--active{
+    transition: all .5s;
+    transform: translateY(0%);
+    }
+
+    .menu__list-link{
+    display: block;
+    padding: 20px 0;
+    }
+
+    .menu{
+    width: 100%;
+    padding-top: 25px;
+    }
+
+    .menu__btn{
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    }
+
+    .menu__list-item + .menu__list-item{
+    margin-left: 0;
+    }
+
+    .header.fixed{
+    display: none;
+    }
+
+    .top__title{
+    margin-left: 30px;
+    width: 220px;
+    font-size: 62px;
+    line-height: 86px;
+    }
+
+    .sec__fon{
+    margin-left: 40px;
+    }
+
+    .top__slogan-photo{
+    display: none;
+    }
+
+    .top__slogan{
+    width: 200px;
+    margin-right: 80px;
+    margin-left: auto;
+    }
+
+    .top__slogan-info{
+    width: 200px;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    }
+
+     .about{
+     padding-top: 50px;
+         }
+
+    .title{
+    padding: 10px;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    }
+
+     .about__info{
+     display: flex;
+     padding-top: 0;
+     }
+
+     .about__inner{
+     margin-left: 30px;
+     margin-right: auto;
+        }
+
+    .text1__inner{
+    display: flex;
+    }
+
+    .text1__item{
+    width: 150px;
+    font-size: 10px;
+    line-height: 20px;
+    }
+
+    .photo-phone{
+        display: block;
+        }
+
+    .text2{
+        padding-bottom: 50px;
+        }
+
+    .text2__item{
+    width: 250px;
+    font-size: 10px;
+    line-height: 20px;
+        }
+
+    .about__photo{
+    display: none;
+    }
+
+    .info{
+    padding-top: 50px;
+    }
+
+     .info__items{
+     padding-top: 40px;
+     }
+
+    .info__items1{
+    flex-wrap: wrap;
+    width: 50%;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    }
+
+    .info__items2{
+        flex-wrap: wrap;
+        width: 50%;
+        padding-left: 80px;
+        padding-bottom: 20px;
+        }
+
+    .info__items3{
+        flex-wrap: wrap;
+        width: 50%;
+        padding-left: 80px;
+        padding-bottom: 20px;
+        }
+
+    .info__items4{
+            flex-wrap: wrap;
+            width: 50%;
+            padding-left: 80px;
+            padding-bottom: 20px;
+            }
+
+    .info__items5{
+            flex-wrap: wrap;
+            width: 50%;
+            padding-left: 80px;
+            padding-bottom: 20px;
+            }
+
+     .info__item-title{
+     font-size: 11.5px;
+     line-height: 11px;
+     width: 202px;
+     text-align: center;
+     padding-bottom: 10px;
+     }
+
+    .info__item{
+    font-size: 10px;
+    line-height: 10px;
+    padding-bottom: 20px;
+    }
+
+    .example{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+
+    .example__inner{
+    display: block;
+    }
+
+    .example1{
+    width: 200px;
+    height: 200px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .example2{
+    width: 200px;
+    height: 200px;
+        margin-left: 80px;
+        margin-top: 20px;
+        padding: 0;
+        }
+
+    .example3{
+    width: 200px;
+    height: 200px;
+    margin-left: 130px;
+    margin-top: 20px;
+    padding: 0;
+    }
+
+    .price{
+        padding-top: 50px;
+    }
+
+    .price__items{
+        margin-left: 15px;
+        }
+
+    .price__item-title{
+       font-size: 12px;
+       line-height: 10px;
+       padding-bottom: 13px;
+        }
+
+    .price__item1{
+        width: 130px;
+        padding-top: 40px;
+    }
+
+    .price__item2{
+        padding-top: 10px;
+        padding-left: 40px;
+        width: 40px;
+        }
+
+    .price__item3{
+        padding-top: 10px;
+        padding-left: 70px;
+        width: 40px;
+                }
+
+    .text1-item{
+    width: 90px;
+    font-size: 12px;
+    line-height: 10px;
+    padding-bottom: 10px;
+    }
+
+    .text2-item{
+        width: 40px;
+        font-size: 12px;
+        line-height: 5px;
+        padding-bottom: 26px;
+        }
+
+    .price__list-link{
+        font-size: 18px;
+        line-height: 10px;
+    }
+
+    .price__link{
+        width: 100px;
+        font-size: 18px;
+        line-height: 10px;
+        margin: 20px auto 70px 150px;
+    }
+
+    .comment1{
+        width: 170px;
+        display: block;
+        margin-top: 30px;
+        }
+
+    .com1{
+    padding-top: 30px;
+    margin-left: 120px;
+        }
+
+    .com2{
+    padding-top: 30px;
+    margin-left: 20px;
+        }
+
+    .com3{
+    width: 170px;
+    padding-top: 30px;
+    margin-right: 0;
+    margin-left: 120px;
+        }
+
+    .comment2{
+    width: 170px;
+    margin-top: 0;
+    display: block;
+    }
+
+    .comment3{
+     width: 170px;
+     margin-top: 0;
+        }
+
+     .com4{
+     width: 170px;
+     padding-top: 30px;
+     margin-left: 40px;
+         }
+
+     .com5{
+     padding-top: 30px;
+     margin-left: 170px;
+         }
+
+     .com6{
+     width: 170px;
+     padding-top: 30px;
+     margin-right: 0;
+     margin-left: 110px;
+         }
+
+     .comment4{
+     width: 170px;
+     margin-top: 0;
+             }
+
+     .comment5{
+     width: 170px;
+     margin-top: 0;
+             }
+
+     .comment6{
+     width: 170px;
+     margin-top: 0;
+             }
+
+    .contacts{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    }
+
+    .contacts__inner{
+    padding-top: 20px;
+    }
+
+    .inst{
+    padding-top: 10px;
+    width: 20px;
+    margin-left: 20px;
+    margin-right: auto;
+    }
+
+    .insta{
+    padding-left: 10px;
+    font-size: 14px;
+    line-height: 40px;
+        }
+
+    .number{
+    font-size: 14px;
+    line-height: 40px;
+        }
+
+    .address{
+        width: 150px;
+        margin-left: 80;
+        margin-right: 0;
+        margin-bottom: 50px;
+        margin-top: 10px;
+        font-size: 12px;
+        line-height: 15px;
+        }
+
+}
